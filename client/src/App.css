@@ -48,11 +48,13 @@ button,
 textarea,
 input {
   outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 button {
   border: none;
   cursor: pointer;
-  -webkit-appearance: none;
 }
 
 .nav-links:visited,
@@ -106,8 +108,9 @@ h1 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-right: 35px;
+  margin-right: 25px;
   height: 23px;
+  background-color: transparent;
 }
 .dropdown-btn div {
   width: 28px;
