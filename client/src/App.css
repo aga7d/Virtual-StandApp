@@ -52,6 +52,7 @@ input {
 button {
   border: none;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .nav-links:visited,
