@@ -198,6 +198,7 @@ h1 {
 }
 .form-create input {
   width: 50%;
+  border-bottom: 1px solid grey;
 }
 
 .filter-bar {
