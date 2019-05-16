@@ -157,6 +157,7 @@ h1 {
   max-width: 80%;
   padding-bottom: 8px;
   border-bottom: 3px solid orange;
+  color: rgb(95, 95, 95);
 }
 .create-standup,
 .loading-create {

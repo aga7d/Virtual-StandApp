@@ -53,7 +53,7 @@ class StandupModal extends React.Component {
         </>
       ) : (
         <>
-          Select project <i className="fas fa-tasks" />
+          Select Project <i className="fas fa-tasks" />
         </>
       );
     const options = this.props[option].map(element => ({
@@ -116,7 +116,7 @@ class StandupModal extends React.Component {
           }}
           className="form-window"
         >
-          <h3>Create new StandUp</h3>
+          <h3>Create New StandUp</h3>
           <form
             className="form-create"
             onSubmit={this.props.handleSubmit(this.onSubmit)}
