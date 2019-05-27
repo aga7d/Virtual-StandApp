@@ -22,6 +22,7 @@ class FilterBar extends React.Component {
     const { selected } = this.state;
     return (
       <Select
+        classNamePrefix="list"
         onChange={value => {
           this.setState({ selected: value });
         }}

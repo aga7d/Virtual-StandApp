@@ -6,6 +6,7 @@ import StandupList from "./StandupList";
 import DropDownMenu from "./DropDownMenu";
 import Create from "./Create";
 import Header from "./Header";
+import NotFoundPage from "./NotFoundPage";
 import history from "../history";
 class App extends React.Component {
   state = { uri: "" };
@@ -26,6 +27,7 @@ class App extends React.Component {
           />
           <Route path="/standup" component={StandupList} />
           <Route path="/" exact component={MainPage} />
+          <Route component={NotFoundPage} />
         </Switch>
       </>
     );
