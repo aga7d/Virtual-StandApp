@@ -1,5 +1,5 @@
 # Virtual-StandApp
-Virtual StandApp is a React app that allows you to create a simple note about the work that you have done in your project, save it MongoDB and share it with your co-workers.
+Virtual StandApp is a React app that allows you to create a simple note about the work that you have done in your project, save it to MongoDB and share it with your co-workers.
 ### [See this App](https://v-standapp.herokuapp.com/)
 
 ### Screenshots
