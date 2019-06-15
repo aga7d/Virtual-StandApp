@@ -75,6 +75,7 @@ class StandupModal extends React.Component {
         </div>
         {option === "teamMember" ? (
           <button
+            aria-label="add  new user"
             onClick={() => {
               history.push("/member/create");
             }}
@@ -84,6 +85,7 @@ class StandupModal extends React.Component {
           </button>
         ) : (
           <button
+            aria-label="create new project"
             onClick={() => {
               history.push("/project/create");
             }}
